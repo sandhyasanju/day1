@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quallity people</title>
+</head>
+<style>
+    p
+    {
+    float: right;
+    position:right;
+    top: auto;
+    right: auto;
+    }
+    a
+    {
+    color:red;
+    }
+    .header img
+    {
+      float: left;
+      height: 80px;
+      width: 120px;
+    }
+    button
+    {
+    height:auto;
+    shape-outside:content-box;
+    width: 10%;
+    }
+    .header h1
+    {
+      color:blue;
+      font-weight: bolder;
+      font-style: normal;
+      position: relative;
+      top: auto;
+      right: auto;
+    }
+    .header h5
+    {
+      font-style: italic;
+      top:inherit;
+      right: inherit;
+    }
+    img
+    {
+    flow-into:;
+    float:left;
+    height:auto;
+    width: auto;
+    }
+    </style>
+
+<body>
+  <div class="header">
+    <img src="/home/qpit/Downloads/qualitypeople.png" alt="quality people" />
+  <h1>QUALITY PEOPLE IT</h1><h5>Information technology & Services</h5>
+</div>
+<button type="button">Home</button>
+<br>
+<button type="button">Profile</button>
+<br>
+<button type="button">Services</button>
+<br>
+<button type="button">careers</button>
+<br>
+<button type="button">Contact us</button>
+<br>
+<button type="button">About Us</button>
+<br>
+<img src="/home/qpit/Downloads/qp.jpeg"/>
+  <center><p id="123456">
+    Quality People IT, is one of the emerging companies specialized on Oracle e-Business suite applications and Enterprise Mobile Application Development Our hands-on Functional and Technical consultants are among the most highly
+    skilled and respected in their field. There is no substitute for experience. We specialize in the Oracle Applications marketplace, providing expertise in the Oracle E-Business Suite.
+  </p></center>
+  <br>
+
+  <a href="http://www.qualitypeopleit.com">www.qualitypeopleit.com</a>
+</body>
+</html>
