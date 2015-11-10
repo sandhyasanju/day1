@@ -1,0 +1,70 @@
+body{
+  background-color: #000080;
+}
+div{
+  background-color: white;
+  border: 50%;
+  height: auto;
+  left: 10px;
+  margin: auto auto;
+  position: relative;
+  width: 40%;
+}
+#div1{
+  display: inline;
+}
+#finday{
+  heght: 10%;
+  width: 10%;
+}
+hr{
+  color: #C0c0c0;
+  width: 90%;
+}
+#un{
+  height: 35%;
+  width: 90%;
+}
+#pw{
+  height: 35%;
+  width: 90%;
+}
+#div2 hr{
+  color: #C0C0C0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+#b1{
+  border: 50%;
+  height: 30%;
+  width: 90%;
+}
+#or{
+  background: #A9A9A9;
+  border-radius: 50%;
+}
+#div2{
+  margin-top: 1%;
+  position: relative;
+  text-align: center;
+}
+#g{
+  background-color: #DC143C;
+  color: white;
+  float: left;
+  height: 50%;
+  shape-outside: border-box;
+  width: 40%;
+}
+#fb{
+  background-color: #6495ED;
+  border: 50%;
+  color: white;
+  float: right;
+  height: 50%;
+  width: 40%;
+}
+#signup{
+  float: right;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Finday Login Page</title>
+</head>
+<body>
+  <div>
+  <form>
+    <img src="/home/qpit/Day/sandhya/finday.png" alt="finday">
+    <h2>FINDAY</h2>
+    <hr>
+  User Name:<br>
+  <input type="text" name="User Name">
+  <br>
+  Password:<br>
+  <input type="text" name="Password">
+  <br>
+  <button type="button">Login</button>
+  <hr>
+  <p>OR</p>
+  <button type="button"><img src="/home/qpit/Day/sandhya/goole.jpeg">Sign In</button>
+  <button type="button"><img src="/home/qpit/Day/sandhya/facebook.png">login</button>
+  <br>
+  <hr>
+  <a href="http://www.finday.com">Forgot Password?</a>
+  <a href="">Sign up</a>
+  </form>
+</div>
+</body>
+</html>
