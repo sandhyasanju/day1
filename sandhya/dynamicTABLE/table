@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dynamic table creation</title>
+</head>
+<body onload="load()">
+<center>
+  <div id="div">
+    <center><b>STUDENT LIST</b></center>
+    <table id="tab">
+      <tr>
+        <td>S.No:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Percentage</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Grade</td>
+        <td><input type="text"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="mydynamictable">
+  <button type="button" id="addROW" onclick="addtable()"><b>ADD ROWS</b></button>
+</div>
+</center>
+<script type="text/javascript" src="/home/qpit/Day/sandhya/dynamicTABLE/table.js"></script>
+</body>
+</html>
