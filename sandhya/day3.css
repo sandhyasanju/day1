@@ -1,0 +1,17 @@
+body{
+  background-color: #C0C0C0;
+}
+#div{
+  display: inline;
+}
+#div1{
+  background-color: #00FFFF;
+  border-color: #99CCFF;
+  border-style: dotted;
+  border-width: thick;
+  margin-bottom: 0;
+  mmargin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: relative;
+}

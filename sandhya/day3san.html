@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<title>dynamic table creation</title>
+</head>
+<body>
+<script>
+var students = new Array();
+  students.push(["student id", "student name", "gender", "college", "work for"]);
+  students.push([1, "sandhya", "female", "vvit", "quality people"]);
+  students.push([2, "harika", "female", "vvit", "quality people"]);
+
+
+var table = document.createElement("TABLE");
+  table.border = '1';
+
+  var columnCount = students[0].length;
+
+  var row = table.insertRow(-1);
+  for( var i=0; i<columnCount; i++){
+    var headerCell = document.createElement("TH");
+     headerCell.innerHTML = students[0][i];
+     row.appendChild(headerCell);
+  }
+  for(var i=1; i<students.length; i++){
+    row= table.insertRow(-1);
+    for(var j=0; j<columnCount; j++){
+      var cell= row.insertCell(-1);
+      cell.innerHTML=students[i][j];
+    }
+  }
+  var element= document.getElementById("div1");
+  element.appendChild(table);
+
+</script>
+</body>
+</html>

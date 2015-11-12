@@ -1,0 +1,21 @@
+#buddy {
+ background-color: #00FFFF;
+  }
+#division{
+  color: #DDA0DD;
+  margin: 0 auto;
+  position: relative;
+}
+#table20{
+  border: 2px solid-black;
+  border-style: dotted;
+  border-width: thick;
+}
+#table2{
+  border: 2px solid-black;
+  border-style: dotted;
+  border-width: thin;
+}
+.tinput{
+  width: 1%;
+}
